@@ -1,0 +1,33 @@
+@use 'src/styles/vars';
+
+.settings {
+  position: absolute;
+  float: left;
+  z-index: 2;  
+  width: 50%;
+  height: 20%;
+  background-color: #0E395A;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  border: white 1px solid;
+  box-shadow: -0.3em 0 .4em #0E395A;
+
+  .settings-input {
+    height: 30px;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 4rem;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .settings-submit {
+    height: 30px;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 4rem;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+  }
+}
